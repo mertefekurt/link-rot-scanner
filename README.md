@@ -1,18 +1,12 @@
 # Link Rot Scanner
 
-<p align="center">
-  <img src="assets/readme-cover.svg" alt="Link Rot Scanner cover" width="100%" />
-</p>
+A fast CLI for finding broken Markdown links, local file references, and missing anchors. The idea is simple: give Link Rot Scanner the local file or fixture, get a readable result, and decide what needs attention before the next handoff.
 
-A fast CLI for finding broken Markdown links, local file references, and missing anchors.
+## A quick look
 
-## Working notes
+![Link Rot Scanner cover](assets/readme-cover.svg)
 
-- quick local checks around link health
-- small CI jobs where a readable report is enough
-- review workflows that need deterministic output
-
-## Install
+## Start here
 
 ```bash
 git clone https://github.com/mertefekurt/link-rot-scanner.git
@@ -22,13 +16,13 @@ source .venv/bin/activate
 python -m pip install -e ".[dev]"
 ```
 
-## Use
+Run:
 
 ```bash
 link-rot-scanner --help
 ```
 
-## Files
+## Files with the most context
 
 ```text
 src/            package source
